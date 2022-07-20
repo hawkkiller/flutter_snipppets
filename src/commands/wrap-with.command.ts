@@ -2,8 +2,8 @@ import { wrapWith } from "../utils";
 
 const testSnippet = (widget: string) => {
     return `Container(
-        child: ${widget}
-    ),`;
+        child: ${widget},
+    )`;
 };
 
 export const wrapWithTest = async () => wrapWith(testSnippet);
